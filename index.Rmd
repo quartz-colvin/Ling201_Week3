@@ -1,0 +1,324 @@
+---
+title: "Week 3: Morphology"
+subtitle: "Recitation for LING 201:02"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      bibliography:  bibliography.bib
+---
+
+class: middle, center
+
+# Terminology 
+
+---
+
+# Terminology 
+
+- compounding
+
+- affixation 
+
+- reduplication 
+
+- alternation 
+
+- suppletion 
+
+- zero-derivation 
+
+- acronym 
+
+- blend 
+
+- clipping 
+
+- reanalysis
+
+---
+
+class: middle, center
+
+# Identifying word-formation processes 
+
+---
+
+# Identifying word-formation processes
+
+- Identify the morphological processes involved in the following words. 
+
+- Some will exhibit one process, some will exhibit multiple. 
+
+*(Note: Say the words out loud to hear differences in sound.)*
+
+.pull-left[
+1. feed → fed
+
+2. leaf →  leaves
+
+3. peace →  peaceful
+
+4. foot, ball → football 
+
+5. good →  best
+]
+
+.pull-right[
+6. chair, woman →  chairwomen
+
+7. back, pack →  backpacks
+
+8. like →  like-liked
+
+9. go →  underwent
+]
+
+
+---
+
+# Order of affixation 
+
+- consider the words *unbelievable* and *renewable*. 
+
+  - How many morphemes do they each have? 
+  
+  - What's the root and are there prefixes or suffixes? 
+
+--
+
+- so they're pretty similar: prefix-root-suffix
+
+--
+
+- Now imagine you start with the root and then add affixes until you get the full word. Do you start with the prefix or suffix? Which do you add first?
+
+  - Is it *un* + *believable* **or** *unbelieve* + *able*? Why? 
+  
+  - Is it *renew* + *able* **or** *re* + *newable*? Why?
+
+---
+
+# Order of affixation 
+
+- Even though *unbelievable* and *renewable* both have three morphemes (prefix-root-suffix), there seems to be something different about the order in which the morphemes are added to the root
+
+--
+
+In *un*-**believ**-*able* you add the suffix first and the prefix second
+  
+--
+
+  1. Does adding an infix make a real word? **believ**-*able* os a real word, but \**un*-**believe** is not
+    
+    2. What does the word mean? *unbelievable* means *not believable*, not *able to be unbelieved* 
+
+--
+
+In *re*-**new**-*able*, you add the suffix first and the prefix second
+
+--
+
+   1. Does adding an affix make a real word? *re*-**new** is a real word, but \***new**-*able* is not
+  
+  2. What does the word mean? *renewable* means *able to be renewed*, not *newable again*
+
+---
+
+# Order of affixation 
+
+This suggest that the **order of affixation**- the order in which you add affixes to a root- plays a role in the morphology of a word!
+
+--
+
+- different words have different orders of affixation 
+
+- order of affixation is part of our mental grammar- what we know about a word as speakers
+
+--
+
+- we can test a word's order of affixation by adding an affix and seeing if it makes a real word
+
+- we can test a word's order of affixation by trying to understand what the word means. if your definition involves some smaller combination of the root and an affix, it suggests that the affix is added first 
+
+--
+
+- ***neither of these tests works 100% of the time, so you should try a combination of them***
+
+---
+
+class: middle, center 
+
+# Morphological trees!
+
+---
+
+# Morphological trees
+
+## Hierarchical structure
+
+- order of affixation is somehow connected to the *meaning* of a word
+
+- the fact that we can't add affixes in any order suggests that words have a **hierarchical structure**
+
+--
+
+- we can visualize this structure with a **tree diagram**!
+
+---
+
+# Hierarchical structure
+
+We can visualize this structue with a tree diagram...
+
+- we start at the bottom with the root and build upward, adding affixes until we get to the full word at the top
+
+--
+
+- an alternative notation is **labeled bracketing**, which is more compact but perhaps less intuitive
+
+--
+
+  - [<sub>Adj</sub> un [<sub>V</sub> [<sub>V</sub> believe ] able ]]
+
+  - [<sub>Adj</sub> [<sub>V</sub> re [<sub>Adj</sub> new ]] able ]
+  
+---
+
+# Hierarchical structure 
+
+.pull-left[
+- [<sub>Adj</sub> un [<sub>V</sub> [<sub>V</sub> believe ] able ]]
+
+- [<sub>Adj</sub> [<sub>V</sub> re [<sub>Adj</sub> new ]] able ]
+]
+
+.pull-right[
+***???insert trees***
+]
+
+
+---
+
+class: middle, center
+
+# Trees!
+
+---
+
+# Trees 
+
+**How to draw a morphological tree:**
+
+1. identify the word's morphemes and write them out separately in one row *(leave plenty of space above them!)*
+
+2. identify the root(s) and label their part of speech
+
+3. look at the morphemes immediately before and after the root. Which one is added first? Draw lines upward connecting them, and label the new word's part of speech
+
+4. this new word becomes the base you'll keep building off of. Repeat step 3 using this new base instead of the root, and continue until you have no unconnected morphemes left
+
+.pull-right[
+***insert pic???***
+]
+
+---
+
+class: middle, center
+
+# Practice!
+
+**Draw a tree or give bracket labeling for the following words:**
+
+.pull-left[
+1. disappearance 
+
+2. silliness 
+
+3. unthinkable 
+
+4. overgeneralization 
+
+5. internationalism
+]
+
+.pull-right[
+- start at the root and move outward/upward
+
+- remember to mark the part of speech at every step/node
+
+- of adding an affix makes something that isn't a word, try adding a different affix instead
+
+- if adding an affix makes something that seems unrelated to the overall word's meaning, try adding a different affix instead
+]
+
+---
+
+# Undoable
+
+- Consider the word *undoable*. What does it mean? 
+
+- Does it mean something different if it's *undo* + *able* vs. *un* + *doable*? How would you define each word? 
+
+
+---
+
+class: center, middle
+
+# Morphological ambiguity 
+
+---
+
+# Morphological ambiguity 
+
+- this is an example of a word with an ambiguous structure 
+
+- depending on the structure you assign it, it has a different meaning 
+
+- this suggests that tree drawing isn't just a game: the **meaning** of words is directly affected by their morphological structure 
+
+- without knowing the structure, we wouldn't know how to put together the meanings of a word's different morphemes to create the full set
+
+***???fill in pics*** 
+
+---
+
+class: middle, center
+
+# Practice!
+
+---
+
+# Practice: ambiguous structures
+
+Are the following words ambiguous? If yes, provide labeled bracketings for both readings and explain what each reaching means. If no, explain why not. 
+
+1. immeasurable 
+
+2. unwrappable
+
+3. unbearable
+
+
+---
+
+# Coming up 
+
+
+## Reading 
+
+- *Lang. Files* Ch. 4.3-4.5 if you haven't yet!
+
+- Carnie, Ch. 2
+
+## Homework 
+
+- HW1 due **Sept 21**
+

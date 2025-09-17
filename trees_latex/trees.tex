@@ -1,0 +1,61 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+\usepackage{xcolor}
+ \usepackage{qtree}
+\usepackage{fge}
+\usepackage{tgtermes}
+
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+\usepackage{amsmath,amsthm, amssymb, latexsym}
+\usepackage{graphicx, fancyhdr}
+ \usepackage{stmaryrd}
+ \usepackage{mathrsfs}
+\usepackage{soul}
+ \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{ot-tableau}
+\usepackage{multicol}
+\usepackage{enumitem}
+
+\usepackage{tipa}
+\usepackage{tipx}
+
+\usepackage[sc]{mathpazo}
+\usepackage[scaled=0.95]{helvet}
+\usepackage{courier}
+\usepackage{tgpagella}
+\usepackage[euler]{textgreek}
+ 
+\usepackage{gb4e}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{Ling201:02 \hfill 2025}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\theenumi}{\Alph{enumi}}
+
+
+\begin{document}
+
+\begin{center}
+\Large{\textbf{Morphological trees}}
+\end{center}
+
+\begin{exe}
+\ex \Tree[.Adj un [.Adj \textbf{believe\\(V)} able ]]
+\vspace{1cm}
+\ex \Tree[.Adj [.V re \textbf{new\\(Adj)} ] able ]
+\vspace{1cm}
+\ex \Tree[.\textcolor{teal}{N} [.\textcolor{red}{V} \textcolor{red}{de} [.\textcolor{green}{V} \textcolor{blue}{\textbf{humid}}(Adj) \textcolor{green}{ify} ]] \textcolor{teal}{er} ]
+\vspace{1cm}
+\ex \Tree[.Adj un [.Adj \textbf{do(V)} able ]]
+\vspace{1cm}
+\ex \Tree[.Adj [.V un \textbf{do(V)} ] able ]
+\end{exe}
+
+
+\end{document}

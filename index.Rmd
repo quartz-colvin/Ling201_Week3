@@ -13,6 +13,11 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       bibliography:  bibliography.bib
+    keep_tex: true
+header-includes:
+- \usepackage{qtree}
+- \newenvironment{dummy}{}{}
+documentclass: ../includes/tex
 ---
 
 class: middle, center
@@ -90,11 +95,7 @@ class: middle, center
 
   - How many morphemes do they each have? 
   
-  - What's the root and are there prefixes or suffixes? 
-
---
-
-- so they're pretty similar: prefix-root-suffix
+  - What's the root? Are there prefixes or suffixes? 
 
 --
 
@@ -108,7 +109,7 @@ class: middle, center
 
 # Order of affixation 
 
-- Even though *unbelievable* and *renewable* both have three morphemes (prefix-root-suffix), there seems to be something different about the order in which the morphemes are added to the root
+- Even though *unbelievable* and *renewable* both have three morphemes (prefix-root-suffix), there seems to be something different about the order in which the morphemes are added to the root!
 
 --
 
@@ -116,9 +117,9 @@ In *un*-**believ**-*able* you add the suffix first and the prefix second
   
 --
 
-  1. Does adding an infix make a real word? **believ**-*able* os a real word, but \**un*-**believe** is not
+  1. Does adding an infix make a real word? **believ**-*able* is a real word, but \**un*-**believe** is not
     
-    2. What does the word mean? *unbelievable* means *not believable*, not *able to be unbelieved* 
+    - What does the word mean? *unbelievable* means *not believable*, not *able to be unbelieved* 
 
 --
 
@@ -128,7 +129,7 @@ In *re*-**new**-*able*, you add the suffix first and the prefix second
 
    1. Does adding an affix make a real word? *re*-**new** is a real word, but \***new**-*able* is not
   
-  2. What does the word mean? *renewable* means *able to be renewed*, not *newable again*
+  - What does the word mean? *renewable* means *able to be renewed*, not *newable again*
 
 ---
 
@@ -140,17 +141,19 @@ This suggest that the **order of affixation**- the order in which you add affixe
 
 - different words have different orders of affixation 
 
-- order of affixation is part of our mental grammar- what we know about a word as speakers
+- order of affixation is part of our mental grammar (what we know about a word as speakers)
 
 --
 
 - we can test a word's order of affixation by adding an affix and seeing if it makes a real word
 
+--
+
 - we can test a word's order of affixation by trying to understand what the word means. if your definition involves some smaller combination of the root and an affix, it suggests that the affix is added first 
 
 --
 
-- ***neither of these tests works 100% of the time, so you should try a combination of them***
+***neither of these tests works 100% of the time, so you should try a combination of them!***
 
 ---
 
@@ -178,7 +181,7 @@ class: middle, center
 
 We can visualize this structue with a tree diagram...
 
-- we start at the bottom with the root and build upward, adding affixes until we get to the full word at the top
+- we **start at the bottom** with the root and **build upward**, adding affixes until we get to the full word at the top
 
 --
 
@@ -194,16 +197,27 @@ We can visualize this structue with a tree diagram...
 
 # Hierarchical structure 
 
+### Notation comparison
+
 .pull-left[
+
 - [<sub>Adj</sub> un [<sub>V</sub> [<sub>V</sub> believe ] able ]]
 
-- [<sub>Adj</sub> [<sub>V</sub> re [<sub>Adj</sub> new ]] able ]
+```{r, out.width="100%", out.height="100%", echo=FALSE}
+knitr::include_graphics("./images/unbelievable.png")
+```
 ]
+
+--
 
 .pull-right[
-***???insert trees***
-]
 
+- [<sub>Adj</sub> [<sub>V</sub> re [<sub>Adj</sub> new ]] able ]
+
+```{r, out.width="95%", out.height="95%", echo=FALSE}
+knitr::include_graphics("./images/renewable.png")
+```
+]
 
 ---
 
@@ -219,15 +233,54 @@ class: middle, center
 
 1. identify the word's morphemes and write them out separately in one row *(leave plenty of space above them!)*
 
+--
+
 2. identify the root(s) and label their part of speech
+
+--
 
 3. look at the morphemes immediately before and after the root. Which one is added first? Draw lines upward connecting them, and label the new word's part of speech
 
+--
+
 4. this new word becomes the base you'll keep building off of. Repeat step 3 using this new base instead of the root, and continue until you have no unconnected morphemes left
 
-.pull-right[
-***insert pic???***
+
+---
+
+## How to draw a morphological tree:
+
+.pull-left[
+1. identify morphemes 
+
+  - write them in a row
+
+2. identify root(s) 
+  
+  - label parts of speech
+
+3. morphemes immediately beside the root: 
+
+  - Which one is added first? 
+    
+    - Draw lines upward connecting them
+    
+    - label new word's part of speech
 ]
+
+--
+
+.pull-right[
+
+**4.** the result of **Step 3** is the new base word for the next "round"
+
+  - repeat **step 3** until all morphemes are connected
+
+```{r, out.width="90%", out.height="90%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/dehumidifier.png")
+```
+]
+
 
 ---
 
@@ -237,7 +290,7 @@ class: middle, center
 
 ---
 
-# Practive
+# Practice!
 
 **Draw a tree or give bracket labeling for the following words:**
 
@@ -253,7 +306,11 @@ class: middle, center
 5. internationalism
 ]
 
+
 .pull-right[
+
+***Reminders:***
+
 - start at the root and move outward/upward
 
 - remember to mark the part of speech at every step/node
@@ -282,15 +339,33 @@ class: center, middle
 
 # Morphological ambiguity 
 
-- this is an example of a word with an ambiguous structure 
+- this word (***undoable***) is an example of a word with an ambiguous structure 
 
-- depending on the structure you assign it, it has a different meaning 
+--
 
-- this suggests that tree drawing isn't just a game: the **meaning** of words is directly affected by their morphological structure 
+- **structural ambiguity:** depending on the structure you assign it, it has a different meaning 
 
-- without knowing the structure, we wouldn't know how to put together the meanings of a word's different morphemes to create the full set
+--
 
-***???fill in pics*** 
+- this suggests that tree drawing isn't just a game: the **meaning** of words is directly affected by their morphological structure!
+
+--
+
+- without knowing the structure, we wouldn't know how to put together the meanings of a word's different morphemes to create the full word
+
+--
+
+.pull-left[
+```{r, out.width="90%", out.height="90%", echo=FALSE}
+knitr::include_graphics("./images/undoable.png")
+```
+]
+
+.pull-right[
+```{r, out.width="90%", out.height="90%", echo=FALSE}
+knitr::include_graphics("./images/undoable2.png")
+```
+]
 
 ---
 
@@ -302,7 +377,13 @@ class: middle, center
 
 # Practice: ambiguous structures
 
-Are the following words ambiguous? If yes, provide labeled bracketings for both readings and explain what each reaching means. If no, explain why not. 
+## Are the following words ambiguous? 
+
+**If yes,** provide labeled bracketings for both readings and explain what each reaching means. 
+
+**If no,** explain why not. 
+
+--
 
 1. immeasurable 
 
@@ -315,14 +396,26 @@ Are the following words ambiguous? If yes, provide labeled bracketings for both 
 
 # Coming up 
 
+.pull-left[
 
-## Reading 
+### Reading 
 
 - *Lang. Files* Ch. 4.3-4.5 if you haven't yet!
 
 - Carnie, Ch. 2
 
-## Homework 
+### Homework 
 
 - HW1 due **Sept 21**
 
+]
+
+--
+
+.pull-left[
+
+## Next week!
+
+- **no in-person recitation!** I will assign something to work on remotely (I'll send an announcement when it's ready)
+
+]

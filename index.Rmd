@@ -22,11 +22,65 @@ documentclass: ../includes/tex
 
 class: middle, center
 
-# Terminology 
+# Terminology (REVIEW)
 
 ---
 
-# Terminology 
+# Terminology (Review)
+
+- inflectional vs derivational 
+
+- simple vs complex
+
+--
+
+### Review: inflectional vs derivational
+
+- cat →  cats
+
+- smile → smiles 
+
+- walk →  walked
+
+- quick →  quickness 
+
+- manage →  manageable 
+
+
+---
+
+# Terminology (Review)
+
+
+### Review: simple vs complex
+
+- cat 
+
+- books
+
+- textbook
+
+- silksong
+
+- builder
+
+- fantastic
+
+- rainbow
+
+- uncomfortable
+
+- squid
+
+---
+
+class: middle, center
+
+# Terminology (NEW!)
+
+---
+
+# Terminology (New!)
 
 .pull-left[
 - compounding

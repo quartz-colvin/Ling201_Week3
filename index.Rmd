@@ -28,6 +28,7 @@ class: middle, center
 
 # Terminology 
 
+.pull-left[
 - compounding
 
 - affixation 
@@ -47,6 +48,19 @@ class: middle, center
 - clipping 
 
 - reanalysis
+]
+
+--
+
+.pull-right[
+```{r, out.width="50%", out.height="50%", echo=FALSE}
+knitr::include_graphics("./images/kevining.jpg")
+```
+
+```{r, out.width="50%", out.height="50%", echo=FALSE}
+knitr::include_graphics("./images/snurch.gif")
+```
+]
 
 ---
 

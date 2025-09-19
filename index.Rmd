@@ -54,6 +54,7 @@ class: middle, center
 
 ### Review: simple vs complex
 
+.pull-left[
 - cat 
 
 - books
@@ -71,6 +72,15 @@ class: middle, center
 - uncomfortable
 
 - squid
+]
+
+
+.pull-right[
+
+***simple: ONE MORPHEME***
+
+***complex:*** everything else *(polymorphemic and compound words)*
+]
 
 ---
 

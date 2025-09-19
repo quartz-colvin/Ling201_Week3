@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.8)  18 SEP 2025 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.8)  19 SEP 2025 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1541,16 +1541,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Overfull \vbox (33.25084pt too high) has occurred while \output is active []
+Overfull \vbox (20.61726pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (33.25084pt too high) has occurred while \output is active []
+Overfull \vbox (20.61726pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (33.25084pt too high) has occurred while \output is active []
+Overfull \vbox (20.61726pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (33.25084pt too high) has occurred while \output is active []
+Overfull \vbox (20.61726pt too high) has occurred while \output is active []
 
 
 
@@ -1560,17 +1560,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3] (answers_for_slides.aux)
+[3]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4] (answers_for_slides.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21311 strings out of 469941
- 400605 string characters out of 5468469
- 793992 words of memory out of 5000000
- 47655 multiletter control sequences out of 15000+600000
+ 21382 strings out of 469941
+ 401943 string characters out of 5468469
+ 786837 words of memory out of 5000000
+ 47726 multiletter control sequences out of 15000+600000
  669327 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,475b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1579,9 +1588,9 @@ m/cmsy10.pfb><C:/Users/court/OneDrive/Desktop/MiKTeX_updated/fonts/type1/public
 /tex-gyre/qplb.pfb><C:/Users/court/OneDrive/Desktop/MiKTeX_updated/fonts/type1/
 public/tex-gyre/qplr.pfb><C:/Users/court/OneDrive/Desktop/MiKTeX_updated/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on answers_for_slides.pdf (3 pages, 143196 bytes).
+Output written on answers_for_slides.pdf (4 pages, 144745 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
